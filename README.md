@@ -8,6 +8,7 @@ A simple game server demo written in C++
 	C++
 
 3.数据库
+
 	1）数据库使用MySql引擎
 	
 	2）在运行项目前，需先将mysql表结构导入，具体导入方法在 database 目录下
