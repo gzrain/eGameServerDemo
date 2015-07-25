@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1.Protocol">
+      <UniqueIdentifier>{ea0295d4-3daa-492a-a712-6771babba774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.ClientCore">
+      <UniqueIdentifier>{cb32474e-e255-4027-bc7e-256481d3b0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.BaseData">
+      <UniqueIdentifier>{17643e8e-de55-4953-9443-7a0ac1844b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.TcpServerBase">
+      <UniqueIdentifier>{ae653019-b7fa-41d7-8553-ee8f79e2e3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.TcpClientBase">
+      <UniqueIdentifier>{ac4d8629-61d3-45c0-88c1-aebcc0348e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.TcpServerLogin">
+      <UniqueIdentifier>{981ede5d-989f-4661-8c79-213a9b99b2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.TcpServerLogic">
+      <UniqueIdentifier>{47726848-350d-46f8-896d-5a26eba8e430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.TcpServerBilling">
+      <UniqueIdentifier>{62eb9528-383c-48fc-87e8-b80789a0e6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.ServerCore">
+      <UniqueIdentifier>{7afdc6bc-3f82-4ba8-bc1f-cd34a8cd6e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.TcpClientBilling">
+      <UniqueIdentifier>{841693f2-6dfc-4c26-8850-827f9de1165b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.TcpClientLogic">
+      <UniqueIdentifier>{c2cd4423-df78-48af-8add-e0c37ddfb916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.TcpClientLogin">
+      <UniqueIdentifier>{6f3c6224-3b64-492c-a876-3690d6773f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.DBMgr">
+      <UniqueIdentifier>{83eeee49-98eb-420b-873e-3d1ab2e0daf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>1.BaseData</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodsData.h">
+      <Filter>1.BaseData</Filter>
+    </ClInclude>
+    <ClInclude Include="BagData.h">
+      <Filter>1.BaseData</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCoordinate.h">
+      <Filter>1.BaseData</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>1.Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLink.h">
+      <Filter>1.TcpServerBase</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSrv.h">
+      <Filter>1.TcpServerBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientCore.h">
+      <Filter>3.ClientCore</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClient.h">
+      <Filter>1.TcpClientBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerCore.h">
+      <Filter>3.ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLink.h">
+      <Filter>2.TcpServerLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicSrv.h">
+      <Filter>2.TcpServerLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginLink.h">
+      <Filter>2.TcpServerLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginSrv.h">
+      <Filter>2.TcpServerLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicClient.h">
+      <Filter>2.TcpClientLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginClient.h">
+      <Filter>2.TcpClientLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="BillingSrv.h">
+      <Filter>2.TcpServerBilling</Filter>
+    </ClInclude>
+    <ClInclude Include="BillingLink.h">
+      <Filter>2.TcpServerBilling</Filter>
+    </ClInclude>
+    <ClInclude Include="BillingClient.h">
+      <Filter>2.TcpClientBilling</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMgr.h">
+      <Filter>1.DBMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>1.BaseData</Filter>
+    </ClCompile>
+    <ClCompile Include="GoodsData.cpp">
+      <Filter>1.BaseData</Filter>
+    </ClCompile>
+    <ClCompile Include="BagData.cpp">
+      <Filter>1.BaseData</Filter>
+    </ClCompile>
+    <ClCompile Include="UserCoordinate.cpp">
+      <Filter>1.BaseData</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLink.cpp">
+      <Filter>1.TcpServerBase</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSrv.cpp">
+      <Filter>1.TcpServerBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientCore.cpp">
+      <Filter>3.ClientCore</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClient.cpp">
+      <Filter>1.TcpClientBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerCore.cpp">
+      <Filter>3.ServerCore</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicLink.cpp">
+      <Filter>2.TcpServerLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicSrv.cpp">
+      <Filter>2.TcpServerLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginLink.cpp">
+      <Filter>2.TcpServerLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginSrv.cpp">
+      <Filter>2.TcpServerLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicClient.cpp">
+      <Filter>2.TcpClientLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginClient.cpp">
+      <Filter>2.TcpClientLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="BillingSrv.cpp">
+      <Filter>2.TcpServerBilling</Filter>
+    </ClCompile>
+    <ClCompile Include="BillingLink.cpp">
+      <Filter>2.TcpServerBilling</Filter>
+    </ClCompile>
+    <ClCompile Include="BillingClient.cpp">
+      <Filter>2.TcpClientBilling</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMgr.cpp">
+      <Filter>1.DBMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
