@@ -1,6 +1,7 @@
 # eGameServerDemo
 A simple game server demo written in C++
 
+##项目总体描述
 1.开发环境及平台
 	VS2013 + Windows
 
