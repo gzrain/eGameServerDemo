@@ -25,6 +25,9 @@ A simple game server demo written in C++
 	
 ##项目源码结构
 	Common ：基础模块，提供数据库访问等一些项目无关服务
+	
 	GameServerCore ：服务器核心模块，提供服务器TCP通讯、服务器业务逻辑等功能
+	
 	MFCClient ： 客户端测试程序，使用MFC编写
+	
 	ServerConsoleDemo ：服务端测试Win32程序
